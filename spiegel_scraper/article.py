@@ -46,7 +46,7 @@ def scrape_html(article_html: str):
         'text': text,
         'topics': info['topics'],
         'author': settings['editorial']['author'],
-        'comments_enabled': false,
+        'comments_enabled': False,
         'date_created': news_ld['dateCreated'],
         'date_modified': news_ld['dateModified'],
         'date_published': news_ld['datePublished'],
